@@ -1,0 +1,197 @@
+*   Trying 66.211.183.107:443...
+* TCP_NODELAY set
+* Connected to rover.ebay.com (66.211.183.107) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=San Jose; O=eBay, Inc.; OU=Site Operations; CN=rover.ebay.com
+*  start date: Jul 20 00:00:00 2020 GMT
+*  expire date: Jul 21 12:00:00 2021 GMT
+*  subjectAltName: host "rover.ebay.com" matched cert's "rover.ebay.com"
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+*  SSL certificate verify ok.
+> GET /rover/1/711-53200-19255-0/1?ff3=2&toolid=10044&campid=5338743934&customid=&lgeo=1&vectorid=229466&item=303579879904 HTTP/1.1
+Host: rover.ebay.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: ebay=%5Ecv%3D15555%5Esbf%3D%23100000%5Ejs%3D1%5E
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 301 Moved Permanently
+< Date: Fri, 25 Sep 2020 20:33:16 GMT
+< X-EBAY-CHOCOLATE: true
+< X-EBAY-C-REQUEST-ID: ri=mbP1d%2B8dqoqN,rci=f62d5d2f10cf5041
+< RlogId: t6qjpbq%3F%3Ctofthu%60t*0102506%29pqtfwpu%29pie%29fgg%7E-fij-174c6f84f28-0x10d
+< P3P: policyref="/w3c/p3p.xml", CP="NOI CURa ADMa DEVa PSDo PSAa OUR SAMo IND UNI COM NAV INT STA DEM PRE"
+< Cache-Control: private,no-cache,no-store
+< Pragma: no-cache
+* Added cookie npii="btguid/c6f84f211740ac3cf267b522fdc83ebf6330bb0c^tpim/15f6e5448^cguid/c6f84f271740ac3cf267b522fdc83ebb6330bb0c^" for domain ebay.com, path /, expire 1664137996
+< Set-Cookie: npii=btguid/c6f84f211740ac3cf267b522fdc83ebf6330bb0c^tpim/15f6e5448^cguid/c6f84f271740ac3cf267b522fdc83ebb6330bb0c^;Domain=.ebay.com;Expires=Sun, 25-Sep-2022 20:33:16 GMT;Path=/ ;SameSite=None;Secure
+< Location: http://www.ebay.com/itm/like/303579879904
+< Date: Fri, 25 Sep 2020 20:33:15 GMT
+< Server: ebay server
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< 
+* Connection #0 to host rover.ebay.com left intact
+* Issue another request to this URL: 'http://www.ebay.com/itm/like/303579879904'
+*   Trying 2.20.149.83:80...
+* TCP_NODELAY set
+* Connected to www.ebay.com (2.20.149.83) port 80 (#1)
+> GET /itm/like/303579879904 HTTP/1.1
+Host: www.ebay.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.ebay.com/itm/303579879904
+< x-envoy-upstream-service-time: 0
+< Server: ebay-proxy-server
+< Content-Length: 0
+< X-EdgeConnect-MidMile-RTT: 45
+< X-EdgeConnect-Origin-MEX-Latency: 2
+< X-EdgeConnect-Cache-Status: 0
+< Date: Fri, 25 Sep 2020 20:33:16 GMT
+< Connection: keep-alive
+< 
+* Connection #1 to host www.ebay.com left intact
+* Issue another request to this URL: 'https://www.ebay.com/itm/303579879904'
+*   Trying 2.20.149.83:443...
+* TCP_NODELAY set
+* Connected to www.ebay.com (2.20.149.83) port 443 (#2)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Jose; O=eBay, Inc.; OU=Slot9428 v2; CN=www.ebay.com
+*  start date: May 28 00:00:00 2020 GMT
+*  expire date: May 29 12:00:00 2021 GMT
+*  subjectAltName: host "www.ebay.com" matched cert's "www.ebay.com"
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7f8313917c00)
+> GET /itm/303579879904 HTTP/2
+Host: www.ebay.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: npii=btguid/c6f84f211740ac3cf267b522fdc83ebf6330bb0c^tpim/15f6e5448^cguid/c6f84f271740ac3cf267b522fdc83ebb6330bb0c^
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< x-ebay-c-request-id: ri=y0du6XdJII3R,rci=46cdca86e22059c1
+< rlogid: t6ulcpjqcj9%3Fuk%60sobtlrbn%2853%3A4063%2Busqdrrp%2Buk%60%2Bceb%7C%28dlh-174c6f85558-0x194
+< x-sw-no-cache: true
+< x-frame-options: SAMEORIGIN
+< x-content-type-options: nosniff
+< x-xss-protection: 1; mode=block
+< cache-control: private
+< pragma: no-cache
+< content-type: text/html;charset=UTF-8
+< content-language: en-US
+< server: ebay-proxy-server
+< strict-transport-security: max-age=31536000
+< x-envoy-upstream-service-time: 624
+< x-edgeconnect-midmile-rtt: 52
+< x-edgeconnect-origin-mex-latency: 625
+< date: Fri, 25 Sep 2020 20:33:18 GMT
+* Added cookie JSESSIONID="F852020D7687ED40590AA45FC0A2F3F7" for domain www.ebay.com, path /, expire 0
+< set-cookie: JSESSIONID=F852020D7687ED40590AA45FC0A2F3F7; Path=/; HttpOnly
+* Added cookie ebay="%5Esbf%3D%23%5E" for domain ebay.com, path /, expire 0
+< set-cookie: ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/ 
+* Added cookie dp1="bu1p/QEBfX0BAX19AQA**6330bb0e^bl/EG6330bb0e^" for domain ebay.com, path /, expire 1664137998
+< set-cookie: dp1=bu1p/QEBfX0BAX19AQA**6330bb0e^bl/EG6330bb0e^;Domain=.ebay.com;Expires=Sun, 25-Sep-2022 20:33:18 GMT;Path=/ 
+* Added cookie s="CgAD4ACBfb6WOYzZmODU0ZjQxNzQwYWFkNzNkNDQ3MDAzZmY4NjQxNmFt6rhv" for domain ebay.com, path /, expire 0
+< set-cookie: s=CgAD4ACBfb6WOYzZmODU0ZjQxNzQwYWFkNzNkNDQ3MDAzZmY4NjQxNmFt6rhv;Domain=.ebay.com;Path=/; HttpOnly 
+* Added cookie nonsession="CgAAIABxfleEOMTYwMTA2NTk5N3gzMDM1Nzk4Nzk5MDR4MHgyTgDLAAFfblsWMQDKACBjMLsOYzZmODRmMjExNzQwYWMzY2YyNjdiNTIyZmRjODNlYmY/WIDp" for domain ebay.com, path /, expire 1664137998
+< set-cookie: nonsession=CgAAIABxfleEOMTYwMTA2NTk5N3gzMDM1Nzk4Nzk5MDR4MHgyTgDLAAFfblsWMQDKACBjMLsOYzZmODRmMjExNzQwYWMzY2YyNjdiNTIyZmRjODNlYmY/WIDp;Domain=.ebay.com;Expires=Sun, 25-Sep-2022 20:33:18 GMT;Path=/ 
+* Added cookie ak_bmsc="1F091EEEC250D0DFBDCDE7F18C47B22E0214863E966000000E546E5FE0204E18~plM0igtGYIv9g/PPzOkQVUw+CBzosLa7Ty0sRGgoV6+QG8ucNxAnOl3r+rI7whwx4P/VhyGBmoxc4gONOp5ri7dfL0XkAfwaR/m3KcNGjtUy3bGVGcAvNmEIlbr+ZFi9G9sUqZJnzAj24hI6PvwYl1cST4LuMAryw1xShj/pN18VETRB4//vxlr9LhwJtxlu5jGsse4eky9FdhJaqzPG5T88Mh3dY9AmL0yQSHewIpyIk=" for domain ebay.com, path /, expire 1601073200
+< set-cookie: ak_bmsc=1F091EEEC250D0DFBDCDE7F18C47B22E0214863E966000000E546E5FE0204E18~plM0igtGYIv9g/PPzOkQVUw+CBzosLa7Ty0sRGgoV6+QG8ucNxAnOl3r+rI7whwx4P/VhyGBmoxc4gONOp5ri7dfL0XkAfwaR/m3KcNGjtUy3bGVGcAvNmEIlbr+ZFi9G9sUqZJnzAj24hI6PvwYl1cST4LuMAryw1xShj/pN18VETRB4//vxlr9LhwJtxlu5jGsse4eky9FdhJaqzPG5T88Mh3dY9AmL0yQSHewIpyIk=; expires=Fri, 25 Sep 2020 22:33:18 GMT; max-age=7200; path=/; domain=.ebay.com; HttpOnly
+< 
+* Connection #2 to host www.ebay.com left intact
+*   Trying 2.20.149.83:443...
+* TCP_NODELAY set
+* Connected to i.ebayimg.com (2.20.149.83) port 443 (#3)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Jose; O=eBay, Inc.; OU=Slot9428 v2; CN=www.ebay.com
+*  start date: May 28 00:00:00 2020 GMT
+*  expire date: May 29 12:00:00 2021 GMT
+*  subjectAltName: host "i.ebayimg.com" matched cert's "i.ebayimg.com"
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7f8313917c00)
+> GET /images/g/QU0AAOSwNWxezoq7/s-l1600.jpg HTTP/2
+Host: i.ebayimg.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://i.ebayimg.com
+Cookie: ebay=%5Ecv%3D15555%5Esbf%3D%23100000%5Ejs%3D1%5E
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< rlogid: t6yhccjd%3C%3Dpie%7Dn%60bnb%2850%3A4557-174c6f86254-0x13e
+< x-ebay-c-version: 1.0.0
+< last-modified: Wed, 27 May 2020 15:43:54 GMT
+< access-control-allow-origin: *
+< cache-control: public,max-age=31536000,immutable
+< expires: Sat, 25 Sep 2021 20:33:21 GMT
+< content-type: image/jpeg
+< content-length: 135930
+< server: envoy
+< x-envoy-upstream-service-time: 817
+< x-ebay-pop-id: UFES2-FRA-zoe-anycast
+< date: Fri, 25 Sep 2020 20:33:21 GMT
+* skipped cookie with bad tailmatch domain: ebay.com
+< set-cookie: ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/ 
+< strict-transport-security: max-age=31536000
+< 
+* Connection #3 to host i.ebayimg.com left intact
+*   Trying ::1:80...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 80 (#4)
+> GET /wordpress/wp-content/uploads/2020/09/s-l1600.jpg HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://i.ebayimg.com
+Cookie: ebay=%5Ecv%3D15555%5Esbf%3D%23100000%5Ejs%3D1%5E
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Fri, 25 Sep 2020 20:33:24 GMT
+< Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+< Last-Modified: Sat, 05 Sep 2020 10:51:04 GMT
+< ETag: "2028b8123-4cf98-5ae8ec3049600"
+< Accept-Ranges: bytes
+< Content-Length: 315288
+< Content-Type: image/jpeg
+< 
+* Connection #4 to host localhost left intact
