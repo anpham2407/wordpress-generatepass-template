@@ -1,0 +1,88 @@
+.generateblocks-settings-area {
+	.generateblocks-settings-main {
+		.gblocks-asset-library-control .components-panel__body {
+			margin: 10px 0;
+		}
+
+		.gblocks-group-name {
+			margin-top: 20px;
+		}
+
+		.gblocks-asset-items {
+			margin-top: 25px;
+
+			& > .components-base-control__field {
+				margin-bottom: 0 !important;
+			}
+
+			.gblocks-asset-item {
+				margin: 20px 0;
+				background: #fafafa;
+				padding: 20px;
+				border: 1px solid #ddd;
+				position: relative;
+
+				.gblocks-delete-asset {
+					position: absolute;
+					top: 0;
+					right: 0;
+					justify-content: center;
+
+					& > svg {
+						margin: 0;
+					}
+				}
+
+				.gblocks-asset-name-area {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-bottom: 25px;
+
+					.gblocks-asset-preview svg {
+						height: 50px;
+					}
+
+					.gblocks-asset-name-upload {
+						display: flex;
+
+						button {
+							height: auto;
+						}
+
+						.components-base-control__field {
+							margin-bottom: 0 !important;
+						}
+					}
+				}
+
+				&.gblocks-asset-loading {
+					opacity: 0.5;
+				}
+
+				.gblocks-asset-spinner:not(.gblocks-asset-show-spinner) {
+					display: none;
+				}
+			}
+		}
+
+		.components-panel__body .gblocks-asset-library-actions {
+			display: flex;
+			justify-content: flex-start;
+		}
+
+		.components-panel__body .gblocks-asset-library-group-actions {
+			display: flex;
+			justify-content: flex-start;
+
+			.gblocks-add-new-asset-group {
+				margin-right: 10px;
+			}
+		}
+
+		.gblocks-export-asset-group {
+			margin-left: 5px;
+		}
+	}
+}
+

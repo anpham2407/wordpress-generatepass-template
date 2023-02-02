@@ -1,0 +1,45 @@
+.gblocks-data-attributes {
+	display: flex;
+
+	.gblocks-attribute-name {
+		margin-right: 5px;
+	}
+
+	.components-base-control {
+		margin-bottom: 5px;
+
+		.components-base-control__field {
+			margin-bottom: 0;
+		}
+	}
+
+	.gblocks-remove-attribute.components-button {
+		height: 30px;
+
+		svg {
+			width: 20px;
+			height: 20px;
+		}
+	}
+}
+
+.gblocks-custom-attributes-base-control {
+	.components-base-control__help {
+		margin-top: 0;
+	}
+
+	.components-base-control__label {
+		display: block;
+		margin-bottom: 8px;
+	}
+}
+
+
+.gblocks-custom-attributes-allowed-list {
+    margin-top: 10px;
+
+	svg {
+		width: 18px;
+		height: 18px;
+	}
+}

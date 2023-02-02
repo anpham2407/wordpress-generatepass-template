@@ -1,0 +1,48 @@
+.gblocks-global-style-id-field {
+    display: flex;
+	align-items: center;
+
+	.gblocks-global-style-id-prefix {
+		flex-shrink: 0;
+		opacity: 0.4;
+	}
+
+	.components-base-control,
+	.components-base-control__field {
+		margin-bottom: 0 !important;
+	}
+}
+
+.block-editor-block-inspector  .components-base-control.gblocks-use-global-style {
+	margin-bottom: 0;
+
+	& + .components-base-control {
+		margin-bottom: 5px;
+	}
+
+	.components-base-control__field {
+		margin-bottom: 0;
+	}
+}
+
+.gblocks-choose-global-style {
+    margin-top: 20px;
+}
+
+.gblocks-global-style-id-wrap {
+    position: relative;
+
+	button.components-button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0;
+		height: 30px;
+		min-width: auto;
+
+		svg {
+			width: 17px;
+			height: 17px;
+		}
+	}
+}

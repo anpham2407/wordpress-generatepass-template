@@ -1,0 +1,20 @@
+.gb-container.is-selected,
+.gb-container.has-child-selected {
+	cursor: auto !important;
+}
+
+.gblocks-container-link-dropdown {
+	.components-base-control:not(:last-child) {
+		margin-bottom: 24px;
+	}
+
+	.gblocks-container-link input[type="text"] {
+		max-width: 100%;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+	}
+}
+
+.gblocks-container-link-wrapper .components-base-control__field {
+    margin-bottom: 0;
+}

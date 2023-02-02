@@ -1,0 +1,1077 @@
+# Copyright (C) 2022 Tom Usborne
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: GenerateBlocks Pro 1.4.0-rc.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/generateblocks-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-29T18:17:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: generateblocks-pro\n"
+
+#. Plugin Name of the plugin
+#. translators: GenerateBlocks Pro
+#: includes/class-rest.php:440
+msgid "GenerateBlocks Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://generateblocks.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "GenerateBlocks Pro adds more great features to GenerateBlocks without sacrificing usability or performance."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tom Usborne"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tomusborne.com"
+msgstr ""
+
+#: includes/class-asset-library.php:57
+#: includes/class-asset-library.php:58
+#: includes/class-asset-library.php:75
+msgid "Asset Library"
+msgstr ""
+
+#: includes/class-global-styles.php:57
+msgctxt "Post Type General Name"
+msgid "Global Styles"
+msgstr ""
+
+#: includes/class-global-styles.php:58
+msgctxt "Post Type Singular Name"
+msgid "Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:59
+#: includes/class-global-styles.php:61
+#: includes/class-global-styles.php:111
+msgid "Global Styles"
+msgstr ""
+
+#: includes/class-global-styles.php:60
+msgid "Parent Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:62
+msgid "View Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:63
+msgid "Add New Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:64
+#: includes/class-local-templates.php:70
+msgid "Add New"
+msgstr ""
+
+#: includes/class-global-styles.php:65
+msgid "Edit Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:66
+msgid "Update Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:67
+msgid "Search Global Style"
+msgstr ""
+
+#: includes/class-global-styles.php:68
+#: includes/class-local-templates.php:74
+msgid "Not Found"
+msgstr ""
+
+#: includes/class-global-styles.php:69
+#: includes/class-local-templates.php:75
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-local-templates.php:63
+msgctxt "Post Type General Name"
+msgid "Local Patterns"
+msgstr ""
+
+#: includes/class-local-templates.php:64
+msgctxt "Post Type Singular Name"
+msgid "Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:65
+#: includes/class-local-templates.php:67
+#: includes/class-local-templates.php:117
+#: dist/blocks.js:17
+msgid "Local Patterns"
+msgstr ""
+
+#: includes/class-local-templates.php:66
+msgid "Parent Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:68
+msgid "View Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:69
+msgid "Add New Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:71
+msgid "Edit Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:72
+msgid "Update Local Pattern"
+msgstr ""
+
+#: includes/class-local-templates.php:73
+msgid "Search Local Pattern"
+msgstr ""
+
+#: includes/class-rest.php:256
+msgid "Templates not found."
+msgstr ""
+
+#: includes/class-rest.php:322
+msgid "Template data not found."
+msgstr ""
+
+#: includes/class-rest.php:343
+#: includes/class-rest.php:468
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-rest.php:409
+#: includes/class-rest.php:448
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. translators: License key expiration date.
+#: includes/class-rest.php:419
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/class-rest.php:426
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/class-rest.php:430
+msgid "Invalid license."
+msgstr ""
+
+#: includes/class-rest.php:435
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: GenerateBlocks Pro
+#: includes/class-rest.php:440
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/class-rest.php:444
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/class-rest.php:538
+msgid "Shapes saved."
+msgstr ""
+
+#: includes/class-rest.php:600
+msgid "Icons saved."
+msgstr ""
+
+#: plugin.php:74
+msgid "GenerateBlocks Pro is not working because you need to activate the GenerateBlocks plugin."
+msgstr ""
+
+#: plugin.php:75
+msgid "Activate GenerateBlocks Now"
+msgstr ""
+
+#: plugin.php:83
+msgid "GenerateBlocks Pro is not working because you need to install the GenerateBlocks plugin."
+msgstr ""
+
+#: plugin.php:84
+msgid "Install GenerateBlocks Now"
+msgstr ""
+
+#: plugin.php:103
+msgid "GenerateBlocks Pro is not working because you are using an old version of GenerateBlocks."
+msgstr ""
+
+#: plugin.php:104
+msgid "Update GenerateBlocks Now"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Shapes are dynamic elements that will update automatically on your website if altered/removed here."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Group"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Group Name"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "This will permanently delete all shapes in this group and remove them from the front-end of your website."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Delete Group"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Export Group"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Name"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Upload an SVG file"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Upload SVG"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Insert SVG"
+msgstr ""
+
+#: dist/asset-library.js:1
+#: dist/blocks.js:15
+msgid "Browse"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "SVG HTML"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Delete Shape"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "This will permanently delete this shape and remove it from the front-end of your website."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Add Shape"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Add Group"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Import Group"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Group imported."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "File not valid."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Wrong asset type."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Icons are static elements that are added to your content. Changes here will not affect your existing icons."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "This will permanently delete all icons in this group."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Delete Icon"
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "This will permanently delete this icon."
+msgstr ""
+
+#: dist/asset-library.js:1
+msgid "Add Icon"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "Custom Attributes"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "Delete attribute"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "Add Attribute"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "Allowed attributes"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "The following HTML attributes are allowed to be used in the Custom Attributes feature:"
+msgstr ""
+
+#: dist/blocks.js:1
+#: dist/blocks.js:5
+#: dist/blocks.js:7
+#: dist/blocks.js:9
+#: dist/blocks.js:11
+#: dist/blocks.js:13
+#: dist/blocks.js:15
+#: dist/blocks.js:17
+msgid "Close"
+msgstr ""
+
+#: dist/blocks.js:1
+msgid "Select Units"
+msgstr ""
+
+#: dist/blocks.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Pixel"
+msgstr ""
+
+#: dist/blocks.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Em"
+msgstr ""
+
+#: dist/blocks.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Percentage"
+msgstr ""
+
+#: dist/blocks.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Degree"
+msgstr ""
+
+#: dist/blocks.js:2
+#: dist/blocks.js:3
+msgid "%s Units"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Delete Effect"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "This will permanently delete this transform."
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Type"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Choose.."
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Translate"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Rotate"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Skew"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Scale"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Blur"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Brightness"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Contrast"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Grayscale"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Hue-Rotate"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Invert"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Saturate"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Sepia"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Device"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "All"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Desktop"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Tablet"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Tablet + Mobile"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Mobile"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "State"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Normal"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Hover"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Target"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Your background image must be set to Pseudo Element for effects to work."
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Custom Selector"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:5
+msgid "Opacity"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Mix Blend Mode"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Choose…"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Multiply"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Screen"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Overlay"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Darken"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Lighten"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Color Dodge"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Color Burn"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Hard Light"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Soft Light"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Difference"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Exclusion"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Hue"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Saturation"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:15
+msgid "Color"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Luminosity"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Timing Function"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "CSS Property"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Transition Duration"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Delay"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Inset"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Horizontal Offset"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Vertical Offset"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Spread"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Translate X"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Translate Y"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Skew X"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Skew Y"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Automatically add a smooth transition to this effect."
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Add Transition"
+msgstr ""
+
+#: dist/blocks.js:3
+#: dist/blocks.js:17
+msgid "Self"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Inner Container"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Background Image"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Icon"
+msgstr ""
+
+#: dist/blocks.js:3
+msgid "Effects"
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:5
+msgid "Opacity & Blend (%s)"
+msgstr ""
+
+#: dist/blocks.js:5
+msgid "Opacity & Blend"
+msgstr ""
+
+#: dist/blocks.js:5
+#: dist/blocks.js:7
+#: dist/blocks.js:9
+#: dist/blocks.js:11
+msgid "Add Effect"
+msgstr ""
+
+#: dist/blocks.js:5
+#: dist/blocks.js:13
+msgid "Disable in editor"
+msgstr ""
+
+#: dist/blocks.js:5
+msgid "Disable these effects in the editor when this block is selected."
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:7
+msgid "Transition (%s)"
+msgstr ""
+
+#: dist/blocks.js:7
+msgid "Transition"
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:9
+msgid "Box Shadow (%s)"
+msgstr ""
+
+#: dist/blocks.js:9
+msgid "Box Shadow"
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:11
+msgid "Text Shadow (%s)"
+msgstr ""
+
+#: dist/blocks.js:11
+msgid "Text Shadow"
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:13
+msgid "Transform (%s)"
+msgstr ""
+
+#: dist/blocks.js:13
+msgid "Transform"
+msgstr ""
+
+#: dist/blocks.js:13
+msgid "Add Transform"
+msgstr ""
+
+#: dist/blocks.js:13
+msgid "Disable transforms in the editor when this block is selected."
+msgstr ""
+
+#. translators: Number of transforms.
+#: dist/blocks.js:15
+msgid "Filter (%s)"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Filter"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Add Filter"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Hide on desktop"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Hide on tablet"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Hide on mobile"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This block is hidden on this device."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Styles"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Copy Styles"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Paste Styles"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Clear Styles"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This will remove all styling from these blocks."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This will remove all styling from this block."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Global Style"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Name your global style something short and unique to this type of block."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Change Global Style ID"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Changing this ID will remove the styling from existing blocks using this Global Style."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Label"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "The label shown when choosing a Global Style in the editor."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Use Global Style"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This will remove all local styling from this block."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Clear local styles"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Colors"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Background Color"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Text Color"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Link Color"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Border Color"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This makes your Element Tag a link element. It uses valid HTML5 coding but will break if you add interative elements (links or buttons) inside the container."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This adds a hidden link inside your container and tells it to cover the entire element. It is less prone to breakage, but is not as clean as the wrapper method."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Change Container Link"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Set Container Link"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This container is using a dynamic link."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Open link in a new tab"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Add rel=\"nofollow\""
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Add rel=\"sponsored\""
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Link Type"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Hidden Link"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Wrapper"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Aria Label"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Help screen readers understand what this link does."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Image"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Gradient"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Delete Background"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "This will permanently delete this background."
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Direction"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Stop One"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Stop Two"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Image URL"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Background image preview"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Set background image"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Open the Media Library"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Image Size"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Size"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Position"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Repeat"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Attachment"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Current post terms"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Current post"
+msgstr ""
+
+#: dist/blocks.js:15
+msgid "Current post author"
+msgstr ""
+
+#. translators: Number of gradients.
+#: dist/blocks.js:17
+msgid "Advanced (%s)"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Advanced"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Pseudo Element"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Add Background"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Random"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Exclude current post"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Post meta sub field"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Select value property"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Select Category"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Blocks"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "Patterns"
+msgstr ""
+
+#: dist/blocks.js:17
+msgid "No patterns found."
+msgstr ""
+
+#: dist/blocks.js:17
+#: dist/blocks.js:19
+msgid "Add Template"
+msgstr ""
+
+#. translators: Number of templates.
+#: dist/blocks.js:19
+msgid "Patterns: %s"
+msgstr ""
+
+#: dist/blocks.js:19
+msgid "Pattern Library"
+msgstr ""
+
+#: dist/blocks.js:19
+msgid "Insert pre-built patterns directly into your content."
+msgstr ""
+
+#: dist/blocks.js:19
+msgid "Open Pattern Library"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "License key activated."
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "License key deactivated."
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Receiving updates"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Not receiving updates"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Enter your license key here…"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Get alpha and beta updates directly to your Dashboard."
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Enable Local Patterns"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Enable Remote Patterns"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "The pattern library syncs once a day by default. Clicking this button will force it to re-sync."
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Remote patterns synced."
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Sync Remote Patterns"
+msgstr ""
+
+#: dist/dashboard.js:1
+msgid "Save"
+msgstr ""
